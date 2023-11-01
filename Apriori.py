@@ -1,6 +1,8 @@
 # calculate the execution time
 import time
 
+from get_author import get_author
+
 
 def Apriori(data, min_sup, min_conf):
     freq = {}
@@ -56,7 +58,15 @@ def read_data(file_name):
     return data
 
 
-if __name__ == '__main__':
+def author():
+    data = get_author()
+    print('get data!!!')
+    start = time.time()
+    Apriori(data, 0.001, 0.8)
+    end = time.time()
+    print(f'generating frequent itemsets takes {end - start} seconds')
+
+def test():
     data = read_data('pumsb_star.dat')
     # data = [['M', 'O', 'N', 'K', 'E', 'Y'], ['D', 'O', 'N', 'K', 'E', 'Y'], ['M', 'A', 'K', 'E'], ['M', 'U', 'C', 'K', 'Y'], ['C', 'O', 'O', 'K', 'I', 'E']]
     data.sort()
@@ -66,3 +76,6 @@ if __name__ == '__main__':
     end = time.time()
     print(f'generating frequent itemsets takes {end - start} seconds')
     # generating frequent itemsets takes 36.05696654319763 seconds
+
+if __name__ == '__main__':
+    author()
