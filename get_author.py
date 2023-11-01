@@ -2,7 +2,7 @@
 def get_author():
     authors = []
 
-    with open ('./dataset/author.txt') as f:
+    with open ('./dataset/author.txt', encoding='utf-8') as f:
         while True:
             line = f.readline()
             if not line:
