@@ -65,4 +65,4 @@ if __name__ == '__main__':
     Apriori(data, 0.6, 0.8)
     end = time.time()
     print(f'generating frequent itemsets takes {end - start} seconds')
-# generating frequent itemsets takes 36.05696654319763 seconds
+    # generating frequent itemsets takes 36.05696654319763 seconds
