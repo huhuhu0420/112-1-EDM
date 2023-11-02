@@ -1,8 +1,8 @@
 
-def get_author():
+def get_author(path):
     authors = []
 
-    with open ('./dataset/author.txt') as f:
+    with open (path) as f:
         while True:
             line = f.readline()
             if not line:
