@@ -22,14 +22,16 @@ def Apriori(data, min_sup, min_conf):
         freqSet.append(generate(freqSet[-1]))
         if len(freqSet[-1]) == 0:
             break
+        tmp = []
         for i in freqSet[-1]:
             count = 0
             for j in data:
                 if set(i).issubset(set(j)):
                     count += 1
             if count < sup_c:
-                freqSet[-1].remove(i)
-        print(freqSet[-1].__len__())
+                tmp.append(i)
+        for i in tmp:
+            freqSet[-1].remove(i)
     print(freqSet)
 
 
