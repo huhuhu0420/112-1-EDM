@@ -1,3 +1,8 @@
 {
-    "pylint.args": ["--errors-only"]
+    "pylint.args": [
+        "--errors-only"
+    ],
+    "files.associations": {
+        "set": "cpp"
+    }
 }
