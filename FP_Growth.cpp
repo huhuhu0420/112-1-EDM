@@ -52,37 +52,39 @@ void generate_combinations(const std::vector<string>& elements, int length, std:
         result.emplace_back(make_pair(count, set<string>(current_combination.begin(), current_combination.end())));
         return;
     }
-
     for (int i = start; i < elements.size(); ++i) {
         current_combination.push_back(elements[i]);
         generate_combinations(elements, length - 1, current_combination, i + 1, result, count); // Start from the next index to avoid duplicates
         current_combination.pop_back();
     }
 }
-void generate(vector<pair<int, set<string>>>& v, pair<int, set<string>> target) {
+void generate(vector<pair<int, set<string>>>& v, pair<int, set<string>>& target) {
     if (target.second.size() == 1) return;
-    vector<pair<int, set<string>>> temp;
     vector<string> elements;
+    vector<string> current_combination;
     for (auto element: target.second){
         elements.push_back(element);
     }
     for (int length = 1; length <= elements.size(); ++length) {
-        std::vector<string> current_combination;
-        generate_combinations(elements, length, current_combination, 0, temp, target.first);
-        v.insert(v.end(), temp.begin(), temp.end());
+        current_combination.clear();
+        generate_combinations(elements, length, current_combination, 0, v, target.first);
     }
-    
 }
 
 
-int main(){
+int main(int argc, char* argv[]){
+    if (argc != 2){
+        cout << "Usage: ./{exe_name} <filename>\n";
+        return 0;
+    }
+    string filename = argv[1];
     set<string> s;
     map <string, int> m;
     auto start = chrono::steady_clock::now(), milestone = chrono::steady_clock::now();
     // read file
     // ifstream fin("part.txt");
     // start reading file;
-    ifstream fin("author.txt");
+    ifstream fin(filename);
     vector <vector <string> > v;
     string line, token;
     while(getline(fin, line)){
@@ -108,7 +110,6 @@ int main(){
     }
     map<string, int> mg3;
     for (auto i : s){
-        // cout << i << " " << m[i] << endl;
         if (m[i] >= 3) {
             mg3[i] = m[i];
         }
@@ -143,11 +144,16 @@ int main(){
     cout<< "segment cost " << chrono::duration_cast<chrono::milliseconds>(chrono::steady_clock::now()-milestone).count() << " ms\n";
     milestone = chrono::steady_clock::now();
     cout << "already pass " << chrono::duration_cast<chrono::milliseconds>(milestone - start).count() << " ms\n";
- 
+    int fs = frequent_itemsets.size(), count = 0;
     for (auto &author_data : frequent_itemsets){
+        count++;
         vector<pair<int, set<string>>> temp;
-        for (auto single_branch : author_data.second){
-            generate(temp, single_branch);
+        auto iter_s = author_data.second.begin(), iter_e = author_data.second.end();
+        // for (auto single_branch : author_data.second){
+        //     generate(temp, single_branch);
+        // }
+        for (auto iter = iter_s; iter != iter_e; iter++){
+            generate(author_data.second, *iter);
         }
         for (auto p : temp){
             author_data.second.push_back(p);
@@ -163,13 +169,15 @@ int main(){
             }
         }
         erase_if(author_data.second, [](pair<int, set<string>> p){return p.first < 3;});
+        if (count % 100 == 0)
+            cout << "finish " << count << "/" << fs << endl;
     }
     erase_if(frequent_itemsets, [](pair<string, vector<pair<int, set<string>>>> p){return p.second.empty();});
     cout << "total mining done\n"; 
     cout<< "segment cost " << chrono::duration_cast<chrono::milliseconds>(chrono::steady_clock::now()-milestone).count() << " ms\n";
     milestone = chrono::steady_clock::now();
     cout << "already pass " << chrono::duration_cast<chrono::milliseconds>(milestone - start).count() << " ms\n";
-    ofstream fout("result.txt");
+    ofstream fout("result_" + filename);
     for (auto author_data : frequent_itemsets){
         for (auto p : author_data.second){
             fout << "{"<<author_data.first << ", ";
