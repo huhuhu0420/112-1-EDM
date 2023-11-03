@@ -78,8 +78,10 @@ void generate(vector<pair<int, set<string>>>& v, pair<int, set<string>> target) 
 int main(){
     set<string> s;
     map <string, int> m;
+    auto start = chrono::steady_clock::now(), milestone = chrono::steady_clock::now();
     // read file
     // ifstream fin("part.txt");
+    // start reading file;
     ifstream fin("author.txt");
     vector <vector <string> > v;
     string line, token;
@@ -119,22 +121,29 @@ int main(){
     for (auto author_vec : v){
         sort(author_vec.begin(), author_vec.end(), [&mg3](string a, string b){return mg3[a] > mg3[b];});
     }
-    cout << "data clean done" << endl;
-    int total = 0, vs = v.size();
+    cout << "data clean done\n"; 
+    cout<< "segment cost " << chrono::duration_cast<chrono::milliseconds>(chrono::steady_clock::now()-milestone).count() << " ms\n";
+    milestone = chrono::steady_clock::now();
+    cout << "already pass " << chrono::duration_cast<chrono::milliseconds>(milestone - start).count() << " ms\n";
+ 
     Node* root = new Node;
     root->name = "root";
     root->count = 0;
     root->parent = NULL;
     for (auto author_vec : v){
-        total++;
         insert(root, author_vec);
-        if (total % 10000 == 0){
-            cout << total << "/" << vs << endl;
-        }
     }
     cout << "insert done" << endl;
+    cout<< "segment cost " << chrono::duration_cast<chrono::milliseconds>(chrono::steady_clock::now()-milestone).count() << " ms\n";
+    milestone = chrono::steady_clock::now();
+    cout << "already pass " << chrono::duration_cast<chrono::milliseconds>(milestone - start).count() << " ms\n";
+ 
     mining(root, set<string>());
-    cout << "mining done" << endl;
+    cout << "basic mining done" << endl;
+    cout<< "segment cost " << chrono::duration_cast<chrono::milliseconds>(chrono::steady_clock::now()-milestone).count() << " ms\n";
+    milestone = chrono::steady_clock::now();
+    cout << "already pass " << chrono::duration_cast<chrono::milliseconds>(milestone - start).count() << " ms\n";
+ 
     for (auto &author_data : frequent_itemsets){
         vector<pair<int, set<string>>> temp;
         for (auto single_branch : author_data.second){
@@ -156,7 +165,10 @@ int main(){
         erase_if(author_data.second, [](pair<int, set<string>> p){return p.first < 3;});
     }
     erase_if(frequent_itemsets, [](pair<string, vector<pair<int, set<string>>>> p){return p.second.empty();});
-    cout << "erase done" << endl;
+    cout << "total mining done\n"; 
+    cout<< "segment cost " << chrono::duration_cast<chrono::milliseconds>(chrono::steady_clock::now()-milestone).count() << " ms\n";
+    milestone = chrono::steady_clock::now();
+    cout << "already pass " << chrono::duration_cast<chrono::milliseconds>(milestone - start).count() << " ms\n";
     ofstream fout("result.txt");
     for (auto author_data : frequent_itemsets){
         for (auto p : author_data.second){
@@ -165,9 +177,13 @@ int main(){
                 fout << s ;
                 if (s != *p.second.rbegin()) fout << ", ";
             }
-            fout << "}: " << p.first << " times" << "\n";
+            fout << "}: " << p.first << "\n";
         }
         // fout << "\n";
     }
+    cout << "output done\n";
+    cout << "segment cost " << chrono::duration_cast<chrono::milliseconds>(chrono::steady_clock::now()-milestone).count() << " ms\n";
+    milestone = chrono::steady_clock::now();
+    cout << "already pass " << chrono::duration_cast<chrono::milliseconds>(milestone - start).count() << " ms\n";
 
 }   
