@@ -4,42 +4,76 @@ struct Node{
     string name;
     int count;
     Node* parent;
-    vector<Node*> children;
+    map<string, Node*> children_map;
 };
 map<string, vector<pair<int, set<string>>>> frequent_itemsets;
 void insert(Node* root, vector<string> path){
     Node* cur = root;
     for (auto name : path){
         bool flag = false;
-        for (auto child : cur->children){
-            if (child->name == name){
-                child->count++;
-                cur = child;
-                flag = true;
-                break;
-            }
+        // for (auto child : cur->children){
+            
+        //     if (child->name == name){
+        //         child->count++;
+        //         cur = child;
+        //         flag = true;
+        //         break;
+        //     }
+        // }
+        if (cur->children_map.find(name) != cur->children_map.end()){
+            cur->children_map[name]->count++;
+            cur = cur->children_map[name];
+            flag = true;
         }
         if (!flag){
             Node* new_node = new Node;
             new_node->name = name;
             new_node->count = 1;
             new_node->parent = cur;
-            cur->children.push_back(new_node);
+            cur->children_map[name] = new_node;
             cur = new_node;
         }
     }
 }
+
 void mining(Node* root, set<string> path){
-    if (root->children.empty()) return;
-    for (auto child : root->children){
+    if (root->children_map.empty()) return;
+    for (auto child : root->children_map){
         if (path.size() > 1){
-            frequent_itemsets[child->name].push_back(make_pair(child->count, path));
+            frequent_itemsets[child.second->name].push_back(make_pair(child.second->count, path));
         }
-        path.insert(child->name);
-        mining(child, path);
-        path.erase(child->name);   
+        path.insert(child.second->name);
+        mining(child.second, path);
+        path.erase(child.second->name);   
     }
 }
+void generate_combinations(const std::vector<string>& elements, int length, std::vector<string>& current_combination, int start, vector<pair<int, set<string>>>& result, int count) {
+    if (length == 0) {
+        result.emplace_back(make_pair(count, set<string>(current_combination.begin(), current_combination.end())));
+        return;
+    }
+
+    for (int i = start; i < elements.size(); ++i) {
+        current_combination.push_back(elements[i]);
+        generate_combinations(elements, length - 1, current_combination, i + 1, result, count); // Start from the next index to avoid duplicates
+        current_combination.pop_back();
+    }
+}
+void generate(vector<pair<int, set<string>>>& v, pair<int, set<string>> target) {
+    if (target.second.size() == 1) return;
+    vector<pair<int, set<string>>> temp;
+    vector<string> elements;
+    for (auto element: target.second){
+        elements.push_back(element);
+    }
+    for (int length = 1; length <= elements.size(); ++length) {
+        std::vector<string> current_combination;
+        generate_combinations(elements, length, current_combination, 0, temp, target.first);
+        v.insert(v.end(), temp.begin(), temp.end());
+    }
+    
+}
+
 
 int main(){
     set<string> s;
@@ -102,10 +136,17 @@ int main(){
     mining(root, set<string>());
     cout << "mining done" << endl;
     for (auto &author_data : frequent_itemsets){
+        vector<pair<int, set<string>>> temp;
+        for (auto single_branch : author_data.second){
+            generate(temp, single_branch);
+        }
+        for (auto p : temp){
+            author_data.second.push_back(p);
+        }
+
         int l = author_data.second.size();
         for (int i = 0; i < l; i++){
             for (int j = i + 1; j < l; j++){
-                if(i == j)continue;
                 if (author_data.second[i].second == author_data.second[j].second){
                     author_data.second[i].first += author_data.second[j].first;
                     author_data.second[j].first = 0;
