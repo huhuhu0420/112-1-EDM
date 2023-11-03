@@ -2,7 +2,7 @@
 def get_author(path):
     authors = []
 
-    with open (path, encoding='uft-8') as f:
+    with open (path, encoding='utf-8') as f:
         while True:
             line = f.readline()
             if not line:
