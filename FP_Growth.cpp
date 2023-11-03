@@ -85,6 +85,7 @@ int main(){
     for (auto author_vec : v){
         sort(author_vec.begin(), author_vec.end(), [&mg3](string a, string b){return mg3[a] > mg3[b];});
     }
+    cout << "data clean done" << endl;
     int total = 0, vs = v.size();
     Node* root = new Node;
     root->name = "root";
@@ -93,7 +94,7 @@ int main(){
     for (auto author_vec : v){
         total++;
         insert(root, author_vec);
-        if (total % 100000 == 0){
+        if (total % 10000 == 0){
             cout << total << "/" << vs << endl;
         }
     }
