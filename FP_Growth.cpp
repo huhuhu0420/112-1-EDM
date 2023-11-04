@@ -1,26 +1,18 @@
 #include <bits/stdc++.h>
 using namespace std;
+int MIN_SUPPORT = 100;
 struct Node {
     string name;
     int count;
     shared_ptr<Node> parent;
     map<string, shared_ptr<Node>> children_map;
 };
-map<string, vector<pair<int, set<string>>>> frequent_itemsets;
+map<string, vector<pair<int, set<string>>>> author_frequent_itemset;
 void insert(shared_ptr<Node> root, vector<string> path)
 {
     shared_ptr<Node> cur = root;
     for (auto name : path) {
         bool flag = false;
-        // for (auto child : cur->children){
-
-        //     if (child->name == name){
-        //         child->count++;
-        //         cur = child;
-        //         flag = true;
-        //         break;
-        //     }
-        // }
         if (cur->children_map.find(name) != cur->children_map.end()) {
             cur->children_map[name]->count++;
             cur = cur->children_map[name];
@@ -42,8 +34,8 @@ void mining(shared_ptr<Node> root, set<string> path)
     if (root->children_map.empty())
         return;
     for (auto child : root->children_map) {
-        if (path.size() > 1) {
-            frequent_itemsets[child.second->name].push_back(make_pair(child.second->count, path));
+        if (path.size() > 0) {
+            author_frequent_itemset[child.second->name].push_back(make_pair(child.second->count, path));
         }
         path.insert(child.second->name);
         mining(child.second, path);
@@ -71,19 +63,52 @@ void generate(vector<pair<int, set<string>>>& v, pair<int, set<string>>& target)
     for (auto element : target.second) {
         elements.push_back(element);
     }
-    for (int length = 1; length <= elements.size(); ++length) {
+    for (int length = 1; length <= elements.size() - 1; ++length) {
         current_combination.clear();
         generate_combinations(elements, length, current_combination, 0, v, target.first);
     }
 }
+void combination_generate(pair<const string, vector<pair<int, set<string>>>>& author_data, int count, const string& filename)
+{
+    vector<pair<int, set<string>>>* dt = new vector<pair<int, set<string>>>();
+    vector<pair<int, set<string>>>& temp = *dt;
+    auto iter_s = author_data.second.begin(), iter_e = author_data.second.end();
+    for (auto& single_branch : author_data.second) {
+        generate(temp, single_branch);
+        temp.emplace_back(single_branch);
+    }
+    int l = temp.size();
+    for (int i = 0; i < l; i++) {
+        for (int j = i + 1; j < l; j++) {
+            if (temp[i].second == temp[j].second) {
+                temp[i].first += temp[j].first;
+                temp[j].first = 0;
+            }
+        }
+    }
+    erase_if(temp, [](pair<int, set<string>> p) { return p.first < MIN_SUPPORT; });
+    ofstream fout("result_" /*+ to_string(static_cast<int>(floor(count / 10000)))*/ + filename, ios::app);
+    for (auto p : temp) {
+        fout << "{" << author_data.first << ", ";
+        for (auto s : p.second) {
+            fout << s;
+            if (s != *p.second.rbegin())
+                fout << ", ";
+        }
+        fout << "}: " << p.first << "\n";
+    }
+    fout.close();
+    delete dt;
+}
 
 int main(int argc, char* argv[])
 {
-    if (argc != 2) {
-        cout << "Usage: ./{exe_name} <filename>\n";
+    if (argc != 3) {
+        cout << "Usage: ./{exe_name} <filename> <MIN_SUPPORT_COUNT>\n";
         return 0;
     }
     string filename = argv[1];
+    MIN_SUPPORT = atoi(argv[2]);
     set<string> s;
     map<string, int> m;
     auto start = chrono::steady_clock::now(), milestone = chrono::steady_clock::now();
@@ -94,16 +119,11 @@ int main(int argc, char* argv[])
     vector<vector<string>> v;
     string line, token;
     while (getline(fin, line)) {
-        // split by comma
-        // if there is no comma or empty line, continue
         if (/*line.find(',') == string::npos|| */ line.empty())
             continue;
         stringstream ss(line);
         vector<string> temp;
         while (getline(ss, token, ',')) {
-            // remove space
-            // token.erase(remove(token.begin(), token.end(), ' '), token.end());
-            // insert into set
             temp.push_back(token);
             if (s.find(token) == s.end()) {
                 s.insert(token);
@@ -116,7 +136,7 @@ int main(int argc, char* argv[])
     }
     map<string, int> mg3;
     for (auto i : s) {
-        if (m[i] >= 3) {
+        if (m[i] >= MIN_SUPPORT) {
             mg3[i] = m[i];
         }
     }
@@ -125,7 +145,7 @@ int main(int argc, char* argv[])
         erase_if(author_vec, [&mg3](string author) { return mg3.find(author) == mg3.end(); });
     }
     erase_if(v, [](vector<string> author_vec) { return author_vec.empty(); });
-    for (auto author_vec : v) {
+    for (auto& author_vec : v) {
         sort(author_vec.begin(), author_vec.end(), [&mg3](string a, string b) { return mg3[a] > mg3[b]; });
     }
     cout << "data clean done\n";
@@ -150,54 +170,14 @@ int main(int argc, char* argv[])
     cout << "segment cost " << chrono::duration_cast<chrono::milliseconds>(chrono::steady_clock::now() - milestone).count() << " ms\n";
     milestone = chrono::steady_clock::now();
     cout << "already pass " << chrono::duration_cast<chrono::milliseconds>(milestone - start).count() << " ms\n";
-    int fs = frequent_itemsets.size(), count = 0;
-    for (auto& author_data : frequent_itemsets) {
+    int fs = author_frequent_itemset.size(), count = 0;
+    // delete origin result.txt from last run
+    ofstream fout("result_" + filename, ios::trunc);
+    for (auto& author_data : author_frequent_itemset) {
         count++;
-        vector<pair<int, set<string>>> temp;
-        auto iter_s = author_data.second.begin(), iter_e = author_data.second.end();
-        // for (auto single_branch : author_data.second){
-        //     generate(temp, single_branch);
-        // }
-        for (auto iter = iter_s; iter != iter_e; iter++) {
-            generate(author_data.second, *iter);
-        }
-        for (auto p : temp) {
-            author_data.second.push_back(p);
-        }
-
-        int l = author_data.second.size();
-        for (int i = 0; i < l; i++) {
-            for (int j = i + 1; j < l; j++) {
-                if (author_data.second[i].second == author_data.second[j].second) {
-                    author_data.second[i].first += author_data.second[j].first;
-                    author_data.second[j].first = 0;
-                }
-            }
-        }
-        erase_if(author_data.second, [](pair<int, set<string>> p) { return p.first < 3; });
+        combination_generate(author_data, count, filename);
         if (count % 100 == 0)
-            cout << "finish " << count << "/" << fs << endl;
+            cout << "finish " << count << "/" << fs << '\n';
     }
-    erase_if(frequent_itemsets, [](pair<string, vector<pair<int, set<string>>>> p) { return p.second.empty(); });
-    cout << "total mining done\n";
-    cout << "segment cost " << chrono::duration_cast<chrono::milliseconds>(chrono::steady_clock::now() - milestone).count() << " ms\n";
-    milestone = chrono::steady_clock::now();
-    cout << "already pass " << chrono::duration_cast<chrono::milliseconds>(milestone - start).count() << " ms\n";
-    ofstream fout("result_" + filename);
-    for (auto author_data : frequent_itemsets) {
-        for (auto p : author_data.second) {
-            fout << "{" << author_data.first << ", ";
-            for (auto s : p.second) {
-                fout << s;
-                if (s != *p.second.rbegin())
-                    fout << ", ";
-            }
-            fout << "}: " << p.first << "\n";
-        }
-        // fout << "\n";
-    }
-    cout << "output done\n";
-    cout << "segment cost " << chrono::duration_cast<chrono::milliseconds>(chrono::steady_clock::now() - milestone).count() << " ms\n";
-    milestone = chrono::steady_clock::now();
-    cout << "already pass " << chrono::duration_cast<chrono::milliseconds>(milestone - start).count() << " ms\n";
+    return 0;
 }
