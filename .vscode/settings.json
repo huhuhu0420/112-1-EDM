@@ -3,6 +3,11 @@
         "--errors-only"
     ],
     "files.associations": {
-        "set": "cpp"
-    }
+        "set": "cpp",
+        "ostream": "cpp",
+        "bitset": "cpp",
+        "string_view": "cpp",
+        "stacktrace": "cpp"
+    },
+    "cmake.configureOnOpen": true
 }
