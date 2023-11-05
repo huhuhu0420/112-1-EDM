@@ -1,31 +1,32 @@
 
 from get_author import get_author
+import networkx as nx
 
 def test():
-    datas = get_author('./dataset/author.txt')
+    # datas = get_author('./dataset/author.txt')
     print("get data")
-    # datas = [['a', 'b', 'c'], ['e', 'f', 'g'], ['a', 'b', 'c', 'd'], ['a', 'b', 'c', 'd'], ['a', 'b', 'c', 'd', 'z'], ['g', 'e']]
-    divides = []
+    datas = [['g'], ['a', 'b', 'c'], ['e', 'f', 'g'], ['a', 'b', 'c', 'd'], ['a', 'b', 'c', 'd'], ['a', 'b', 'c', 'd', 'z'], ['e'], ['z', 'f']]
+    groups = []
     flag = 0
-    for data in datas:
-        dataset  = set(data)
-        flag = 0
-        for divide in divides:  
-            if dataset.isdisjoint(divide[0]) == False:
-                # print(dataset, divide[0])
-                flag = 1
-                divide.append(dataset)
-                break
-        if flag == 0:
-            divides.append([dataset])
+    G=nx.Graph()
+    for d in datas:
+        nx.add_path(G, d)
+    components = list(nx.connected_components(G))
+    print(components)
+    for component in components:
+        group = []
+        for data in datas:
+            if component.issuperset(data):
+                group.append(data)
+        groups.append(group)
     
     i = 0
-    for divide in divides:
-        path = './divide_data_v2/' + str(i) + '.txt'
-        # print(divide)
+    for group in groups:
+        path = './divide_data/' + str(i) + '.txt'
+        print(group)
         with open(path, 'w') as f:
-            for d in divide:
-                f.writelines(','.join(d) + '\n')
+            for g in group:
+                f.writelines(','.join(g) + '\n')
         i += 1
     
 test()
