@@ -1,3 +1,6 @@
 *.exe
 .vscode/
 *author.txt
+dataset/
+__pycache__/
+venv/
