@@ -3,3 +3,5 @@ divide_data/
 venv/
 __pycache__
 *.exe
+author.txt
+result_*
