@@ -1,3 +1,17 @@
+# HW02 
+## 6.7
+
+### (a) Apriori
+#### Environment
+```
+python 3.11
+```
+#### Usage
+```
+python Apriori.py
+```
+### (b) FP-Growth
+
 # FP_Growth.cpp Usage Guide
 
 ## Environment
