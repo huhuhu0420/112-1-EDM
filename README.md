@@ -61,7 +61,7 @@ python dataset/Apriori.py pumsb_star.txt 0.6
 ```
 ./fpg author.txt 200
 ```
-time cost: 29.6 sec
+time cost: 29.6 sec, 
 result is in result/fpg_author.txt
 
 ### (b)
