@@ -61,15 +61,6 @@ def read_data(file_name):
             data.append(list(map(int, line.strip().split(','))))
     return data
 
-
-def author():
-    data = get_author()
-    print('get data!!!')
-    start = time.time()
-    Apriori(data, 0.001, 0.8)
-    end = time.time()
-    print(f'generating frequent itemsets takes {end - start} seconds')
-
 def test(path, min_sup):
     data = read_data(path)
     # data = [['M', 'O', 'N', 'K', 'E', 'Y'], ['D', 'O', 'N', 'K', 'E', 'Y'], ['M', 'A', 'K', 'E'], ['M', 'U', 'C', 'K', 'Y'], ['C', 'O', 'O', 'K', 'I', 'E']]
