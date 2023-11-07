@@ -27,6 +27,8 @@ g++ FPG.cpp -o fpg
 ./fpg <filename> <min_support_count>
 ```
 
+### test
+
 #### test01 - mushroom_1000
 * apriori
 ```
@@ -58,6 +60,7 @@ python dataset/Apriori.py pumsb_star.txt 0.6
 ./fpg author.txt 200
 ```
 time cost: 28.8 sec
+result is in result/fpg_author.txt
 
 ### (b)
 由於對於本資料Null invariance非常高，不適合使用x^2, lift指標，kulczynski優點在於保留各自的sup，不會因為極端值影響。

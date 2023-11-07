@@ -1,0 +1,1569 @@
+{A. Lee Swindlehurst,} --> 258
+{A. Robert Calderbank,} --> 286
+{Aaron D. Ames,} --> 246
+{Abbas Jamalipour,} --> 281
+{Abdul-Majid Wazwaz,} --> 216
+{Abdulmotaleb El-Saddik,} --> 273
+{Aboul Ella Hassanien,} --> 247
+{Aggelos K. Katsaggelos,} --> 286
+{Ahmed Alsaedi,} --> 229
+{Ahmed E. Hassan,} --> 202
+{Ajith Abraham,} --> 457
+{Alagan Anpalagan,} --> 265
+{Alan C. Bovik,} --> 298
+{Alan L. Yuille,} --> 380
+{Alan M. Frieze,} --> 346
+{Albert Y. Zomaya,} --> 589
+{Alberto Del Bimbo,} --> 260
+{Alberto L. Sangiovanni-Vincentelli,} --> 277
+{Alejandro Ribeiro,} --> 350
+{Alex Pentland,} --> 216
+{Alexander Wong,} --> 319
+{Alexandr V. Kostochka,} --> 239
+{Alexandre Graell i Amat,} --> 208
+{Alexandros Iosifidis,} --> 236
+{Alfred O. Hero III,} --> 355
+{Ali H. Sayed,} --> 390
+{Ali Kashif Bashir,} --> 203
+{Alois C. Knoll,} --> 281
+{Amir Hussain 0001,} --> 322
+{Amir Masoud Rahmani,} --> 240
+{Amit P. Sheth,} --> 272
+{Ananthram Swami,} --> 234
+{Anders Yeo,} --> 242
+{Andrea J. Goldsmith,} --> 225
+{Andreas F. Molisch,} --> 319
+{Andreas K. Maier,} --> 299
+{Andreas Krause 0001,} --> 239
+{Andrew Adamatzky,} --> 370
+{Andrew B. Whinston,} --> 217
+{Andrew Zisserman,} --> 302
+{Andrzej Cichocki,} --> 331
+{Andrzej Pelc,} --> 252
+{Anfeng Liu,} --> 260
+{Anil K. Jain 0001,} --> 383
+{Anthony Ephremides,} --> 253
+{Anton van den Hengel,} --> 236
+{Antonio Plaza,} --> 326
+{Arthur W. Toga,} --> 213
+{Arto Salomaa,} --> 213
+{Arumugam Nallanathan,} --> 449
+{Arun Kumar Sangaiah,} --> 353
+{Arye Nehorai,} --> 217
+{Ashok Kumar Das,} --> 304
+{Athanasios V. Vasilakos,} --> 576
+{Avi Wigderson,} --> 200
+{Azriel Rosenfeld,} --> 390
+{Azzedine Boukerche,} --> 380
+{B. Sundar Rajan,} --> 310
+{Babak Hassibi,} --> 246
+{Badong Chen,} --> 264
+{Baocai Yin,} --> 275
+{Baochang Zhang 0001,} --> 204
+{Barbara Hammer,} --> 202
+{Bart Preneel,} --> 212
+{Ben Shneiderman,} --> 262
+{Beng Chin Ooi,} --> 211
+{Benjamin Doerr,} --> 239
+{Benny Sudakov,} --> 248
+{Bernard De Baets,} --> 395
+{Bernard Ghanem,} --> 207
+{Bernhard Rumpe,} --> 324
+{Bernhard Sch├╢lkopf,} --> 422
+{Bernt Schiele,} --> 239
+{Biao Huang 0001,} --> 242
+{Bijan Davvaz,} --> 234
+{Bin Chen,} --> 276
+{Bin Guo 0001,} --> 254
+{Bin Hu,} --> 204
+{Bin Jiang 0001,} --> 303
+{Bin Li,} --> 350
+{Bin Liu,} --> 408
+{Bin Luo 0001,} --> 216
+{Bin Wang,} --> 570
+{Bin Wu,} --> 238
+{Bin Yang,} --> 246
+{Bin Zhang,} --> 277
+{Bin Zhao,} --> 230
+{Bin Zhou,} --> 294
+{Bing Li,} --> 272
+{Bing Wang,} --> 214
+{Bingsheng He,} --> 229
+{Biswanath Mukherjee,} --> 294
+{Bj├╢rn E. Ottersten,} --> 489
+{Bj├╢rn W. Schuller,} --> 418
+{Bo Ai 0001,} --> 437
+{Bo Chen,} --> 283
+{Bo Du 0001,} --> 366
+{Bo Li,} --> 484
+{Bo Li 0001,} --> 213
+{Bo Liu,} --> 258
+{Bo Peng,} --> 204
+{Bo Sun,} --> 200
+{Bo Wang,} --> 477
+{Bo Yang,} --> 375
+{Bo Zhang,} --> 385
+{Bojan Mohar,} --> 254
+{Bor-Sen Chen,} --> 214
+{Branka Vucetic,} --> 424
+{Brenda K. Wiederhold,} --> 222
+{Brian D. O. Anderson,} --> 330
+{Brij B. Gupta,} --> 230
+{Bruno Clerckx,} --> 357
+{B├⌐la Bollob├ís,} --> 275
+{C. L. Philip Chen,} --> 634
+{C.-C. Jay Kuo,} --> 447
+{Caijun Zhong,} --> 244
+{Caiming Xiong,} --> 236
+{Carla-Fabiana Chiasserini,} --> 240
+{Carola-Bibiane Sch├╢nlieb,} --> 204
+{Ce Zhu,} --> 204
+{Cengiz Kahraman,} --> 253
+{Chadi Assi,} --> 212
+{Chang Liu,} --> 513
+{Chang Wen Chen,} --> 232
+{Changchun Hua,} --> 271
+{Changjun Jiang,} --> 205
+{Changsheng Xu,} --> 286
+{Changshui Zhang,} --> 222
+{Changyin Sun,} --> 280
+{Changyun Wen,} --> 274
+{Chao Chen,} --> 338
+{Chao Li,} --> 377
+{Chao Liu,} --> 205
+{Chao Wang,} --> 486
+{Chao Yang,} --> 290
+{Chao Zhang,} --> 418
+{Chao-Kai Wen,} --> 250
+{Chaoping Xing,} --> 218
+{Charles J. Colbourn,} --> 259
+{Chau Yuen,} --> 620
+{Chee Peng Lim,} --> 240
+{Chelsea Finn,} --> 200
+{Chen Change Loy,} --> 283
+{Chen Chen,} --> 468
+{Chen Li,} --> 251
+{Chen Wang,} --> 438
+{Chen Zhang,} --> 338
+{Chen Zhao,} --> 215
+{Cheng Chen,} --> 278
+{Cheng Li,} --> 241
+{Cheng Wang,} --> 338
+{Cheng Zhang,} --> 302
+{Cheng-Xiang Wang 0001,} --> 248
+{Chenguang Yang,} --> 207
+{Chi Zhang,} --> 285
+{Chi-Wang Shu,} --> 254
+{Chin-Chen Chang 0001,} --> 872
+{Chin-Teng Lin,} --> 364
+{Ching-Hsien Hsu,} --> 214
+{Chintha Tellambura,} --> 298
+{Choon Ki Ahn,} --> 334
+{Choong Seon Hong,} --> 408
+{Christian S. Jensen,} --> 244
+{Christian Theobalt,} --> 299
+{Christoph Busch 0001,} --> 205
+{Christoph Meinel,} --> 209
+{Christopher R├⌐,} --> 234
+{Christos Faloutsos,} --> 243
+{Christos G. Cassandras,} --> 211
+{Christos H. Papadimitriou,} --> 241
+{Chuandong Li 0001,} --> 201
+{Chunhua Shen,} --> 521
+{Chunhua Yang 0001,} --> 223
+{Chunlin Li 0001,} --> 223
+{Chunxiao Jiang,} --> 285
+{Chunyan Miao,} --> 239
+{Ciriaco Andrea D'Angelo,} --> 241
+{Claire J. Tomlin,} --> 224
+{Claude Carlet,} --> 229
+{Clinton Fookes,} --> 202
+{Cl├íudio T. Silva,} --> 207
+{Cong Li,} --> 205
+{Cong Wang,} --> 207
+{Cordelia Schmid,} --> 223
+{Cunhua Pan,} --> 263
+{Cunsheng Ding,} --> 229
+{Dacheng Tao,} --> 1225
+{Damien Chablat,} --> 222
+{Dan Li,} --> 250
+{Dan Liu,} --> 214
+{Dan Roth,} --> 229
+{Dan Suciu,} --> 200
+{Dan Wang,} --> 321
+{Dan Zhang,} --> 200
+{Danail Stoyanov,} --> 206
+{Daniel A. Keim,} --> 220
+{Daniel Benevides da Costa,} --> 203
+{Daniel Cohen-Or,} --> 379
+{Daniel Cremers,} --> 287
+{Daniel Lokshtanov,} --> 221
+{Daniel Rueckert,} --> 418
+{Daniel Thalmann,} --> 274
+{Daniel W. C. Ho,} --> 206
+{Daniel Weiskopf,} --> 201
+{Daniela Rus,} --> 305
+{Danilo P. Mandic,} --> 297
+{Dani├½l Paulusma,} --> 259
+{Daoqiang Zhang,} --> 213
+{Daqing Zhang 0001,} --> 203
+{David Alan Grier,} --> 244
+{David C. Yen,} --> 220
+{David Eppstein,} --> 424
+{David Gesbert,} --> 226
+{David J. Evans 0001,} --> 463
+{David Lo 0001,} --> 309
+{David P. Woodruff,} --> 237
+{David Peleg,} --> 227
+{David R. Wood,} --> 212
+{David W. Bates,} --> 211
+{David Zhang 0001,} --> 514
+{Davide Scaramuzza 0001,} --> 243
+{Debdeep Mukhopadhyay,} --> 213
+{Debiao He,} --> 319
+{Deniz G├╝nd├╝z,} --> 409
+{Depeng Jin,} --> 228
+{Derong Liu 0001,} --> 254
+{Derrick Wing Kwan Ng,} --> 533
+{Deyu Meng,} --> 276
+{Di Wang,} --> 276
+{Di Wu,} --> 376
+{Diane Crawford,} --> 249
+{Didier Dubois,} --> 279
+{Dieter Fox,} --> 215
+{Dieter Rautenbach,} --> 309
+{Dimitrios M. Thilikos,} --> 223
+{Dimitris Bertsimas,} --> 243
+{Dimitris N. Metaxas,} --> 269
+{Dimos V. Dimarogonas,} --> 260
+{Dinesh Manocha,} --> 489
+{Ding-Zhu Du,} --> 253
+{Dinggang Shen,} --> 553
+{Diomidis Spinellis,} --> 202
+{Don Towsley,} --> 275
+{Dong In Kim,} --> 367
+{Dong Li,} --> 308
+{Dong Wang,} --> 440
+{Dong Yu 0001,} --> 235
+{Dong Yue,} --> 314
+{Dong Zhang,} --> 223
+{Douglas B. West,} --> 267
+{Douglas R. Stinson,} --> 269
+{Dov M. Gabbay,} --> 204
+{Dragan Gasevic,} --> 208
+{Dumitru Baleanu,} --> 212
+{Dusit Niyato,} --> 901
+{Eduard A. Jorswieck,} --> 272
+{Edward R. Dougherty,} --> 301
+{Edwin R. Hancock,} --> 241
+{Eiji Oki,} --> 205
+{Eitan Altman,} --> 313
+{Ekram Hossain 0001,} --> 464
+{Elena Maceviciute,} --> 232
+{Elisa Bertino,} --> 419
+{Elza Erkip,} --> 215
+{Emil Bj├╢rnson,} --> 379
+{Emilio Ferrara,} --> 220
+{Enhong Chen,} --> 300
+{Enrico Zio,} --> 352
+{Enrique Herrera-Viedma,} --> 433
+{Eric P. Xing,} --> 300
+{Erik Cambria,} --> 288
+{Erik D. Demaine,} --> 383
+{Erik G. Larsson,} --> 428
+{Ernesto Damiani,} --> 210
+{Erol Gelenbe,} --> 206
+{Eyke H├╝llermeier,} --> 226
+{Eytan H. Modiano,} --> 215
+{F. Richard Yu,} --> 451
+{Fabrizio Lombardi,} --> 262
+{Fan Wang,} --> 354
+{Fan Yang,} --> 536
+{Fan Zhang,} --> 383
+{Fang Liu,} --> 250
+{Fang Liu 0001,} --> 219
+{Fang Wang,} --> 327
+{Fang-Wei Fu 0001,} --> 268
+{Fathi E. Abd El-Samie,} --> 297
+{Fatos Xhafa,} --> 227
+{Fedor V. Fomin,} --> 320
+{Fei Li,} --> 390
+{Fei Wang,} --> 400
+{Fei Wu 0001,} --> 283
+{Fei-Yue Wang 0001,} --> 573
+{Feifei Gao,} --> 315
+{Feiping Nie 0001,} --> 439
+{Felix T. S. Chan,} --> 213
+{Feng Ding 0001,} --> 227
+{Feng Li,} --> 377
+{Feng Liu,} --> 367
+{Feng Shu 0002,} --> 272
+{Feng Wang,} --> 448
+{Feng Wu 0001,} --> 279
+{Feng Xia 0001,} --> 369
+{Feng Xu,} --> 227
+{Feng Yang,} --> 276
+{Feng Zhang,} --> 304
+{Filip De Turck,} --> 253
+{Florentin Smarandache,} --> 231
+{Francesco Bullo,} --> 250
+{Francis R. Bach,} --> 255
+{Francisco Herrera,} --> 628
+{Francky Catthoor,} --> 299
+{Frank Allg├╢wer,} --> 284
+{Frank K. Hwang,} --> 210
+{Frank L. Lewis,} --> 389
+{Fred W. Glover,} --> 246
+{Frede Blaabjerg,} --> 331
+{Fuad E. Alsaadi,} --> 289
+{Fuchun Sun 0001,} --> 331
+{Fumiyuki Adachi,} --> 287
+{Furu Wei,} --> 233
+{Gan Zheng,} --> 205
+{Gang Chen,} --> 346
+{Gang Feng 0001,} --> 326
+{Gang Li,} --> 394
+{Gang Liu,} --> 287
+{Gang Wang,} --> 397
+{Gaurav S. Sukhatme,} --> 211
+{Gautam Srivastava 0001,} --> 358
+{Ge Wang 0001,} --> 254
+{Geert Leus,} --> 233
+{Gennian Ge,} --> 229
+{Geoffrey Ye Li,} --> 465
+{George C. Alexandropoulos,} --> 200
+{George J. Pappas,} --> 309
+{George K. Karagiannidis,} --> 483
+{George V. Neville-Neil,} --> 228
+{Georges Kaddoum,} --> 309
+{Georgios B. Giannakis,} --> 601
+{Gerhard J. Woeginger,} --> 336
+{Gerhard P. Fettweis,} --> 255
+{Geyong Min,} --> 399
+{Gheorghe Paun,} --> 270
+{Ghulam Muhammad,} --> 201
+{Giancarlo Fortino,} --> 283
+{Gilbert Laporte,} --> 399
+{Giovanni Abramo,} --> 239
+{Giovanni De Micheli,} --> 202
+{Giuseppe Caire,} --> 548
+{Giuseppe Liotta,} --> 205
+{Giuseppe Riva 0001,} --> 356
+{Gonzalo Navarro,} --> 315
+{Graham Neubig,} --> 301
+{Gregory Levitin,} --> 279
+{Gregory Z. Gutin,} --> 312
+{Grzegorz Rozenberg,} --> 366
+{Guan Gui,} --> 306
+{Guang-Hong Yang,} --> 436
+{Guang-Zhong Yang,} --> 254
+{Guanghui Wen,} --> 217
+{Guangjie Han,} --> 360
+{Guangming Shi,} --> 263
+{Guangquan Zhang 0001,} --> 222
+{Guangtao Zhai,} --> 242
+{Guanrong Chen,} --> 764
+{Guihai Chen,} --> 307
+{Guillermo Sapiro,} --> 234
+{Guisheng Liao,} --> 302
+{Guojun Wang 0001,} --> 221
+{Guoren Wang,} --> 228
+{Guoyin Wang 0001,} --> 223
+{Gwanggil Jeon,} --> 322
+{Gwo-Jen Hwang,} --> 309
+{H. Jaap van den Herik,} --> 247
+{H. Vincent Poor,} --> 1961
+{Hai Jin 0001,} --> 652
+{Hai Zhao,} --> 306
+{Haibin Ling,} --> 229
+{Haibo He,} --> 272
+{Haijun Zhang 0001,} --> 200
+{Haim Kaplan,} --> 218
+{Haizhou Li 0001,} --> 319
+{Hak-Keung Lam,} --> 293
+{Halim Yanikomeroglu,} --> 436
+{Hamid Reza Karimi,} --> 332
+{Hamido Fujita,} --> 319
+{Han Li,} --> 234
+{Han Wang,} --> 335
+{Han-Chieh Chao,} --> 347
+{Hanif D. Sherali,} --> 230
+{Hans-Peter Seidel,} --> 391
+{Hanspeter Pfister,} --> 233
+{Hao Chen,} --> 504
+{Hao Huang,} --> 208
+{Hao Li,} --> 552
+{Hao Liu,} --> 355
+{Hao Peng,} --> 307
+{Hao Shen 0001,} --> 227
+{Hao Sun,} --> 268
+{Hao Wang,} --> 820
+{Hao Wu,} --> 371
+{Hao Xu,} --> 339
+{Hao Zhang,} --> 627
+{Hao Zhou,} --> 303
+{Harald Haas,} --> 225
+{Harish Garg,} --> 249
+{Harold Joseph Highland,} --> 210
+{Harpreet S. Dhillon,} --> 236
+{He Zhang,} --> 229
+{Helmut Krcmar,} --> 201
+{Heng Huang,} --> 236
+{Heng Tao Shen,} --> 306
+{Heng Zhang,} --> 202
+{Henk Wymeersch,} --> 253
+{Henning Schulzrinne,} --> 206
+{Henri Prade,} --> 267
+{Henry Leung,} --> 233
+{Hermann A. Maurer,} --> 220
+{Hinrich Sch├╝tze,} --> 218
+{Hiroshi Ishiguro,} --> 256
+{Hisao Ishibuchi,} --> 204
+{Hitoshi Kiya,} --> 205
+{Hoang Duong Tuan,} --> 201
+{Holger Boche,} --> 362
+{Hong Chen,} --> 260
+{Hong Li,} --> 232
+{Hong Liu,} --> 252
+{Hong Qiao,} --> 206
+{Hong Qin,} --> 313
+{Hong Shen 0001,} --> 202
+{Hong Wang,} --> 324
+{Hong Yan 0001,} --> 330
+{Hong Yang,} --> 253
+{Hong Zhang,} --> 354
+{Hong-Jian Lai,} --> 247
+{Hongbin Li 0001,} --> 207
+{Hongbo Zhu 0002,} --> 225
+{Hongdong Li,} --> 211
+{Hongsheng Li 0001,} --> 234
+{Hongwei Liu 0001,} --> 296
+{Hongye Su,} --> 253
+{Hongyuan Zha,} --> 201
+{Hongzhi Yin,} --> 227
+{Houbing Song,} --> 404
+{Houqiang Li,} --> 316
+{Hsiao-Hwa Chen,} --> 426
+{Hsinchun Chen,} --> 287
+{Hua Wang,} --> 303
+{Huaguang Zhang,} --> 571
+{Huaicheng Yan 0001,} --> 259
+{Huamin Qu,} --> 234
+{Huan Liu 0001,} --> 273
+{Huan Wang,} --> 212
+{Huaxiong Wang,} --> 207
+{Huazhong Yang,} --> 228
+{Huazhu Fu,} --> 217
+{Huchang Liao,} --> 215
+{Huchuan Lu,} --> 289
+{Hui Chen,} --> 252
+{Hui Li,} --> 574
+{Hui Li 0006,} --> 242
+{Hui Liu,} --> 423
+{Hui Wang,} --> 568
+{Hui Xiong 0001,} --> 287
+{Hui Xu,} --> 201
+{Hui Zhang,} --> 422
+{Hui Zhao,} --> 206
+{Huijun Gao,} --> 364
+{Huiling Chen 0001,} --> 224
+{Huiyu Zhou 0001,} --> 310
+{Hujun Bao,} --> 278
+{Humberto Bustince,} --> 219
+{Hung-yi Lee,} --> 212
+{Hussein T. Mouftah,} --> 243
+{Hyoung-Kyu Song,} --> 212
+{Ian F. Akyildiz,} --> 373
+{Ian R. Petersen,} --> 357
+{Ian T. Foster,} --> 283
+{Ignacio E. Grossmann,} --> 216
+{Igor E. Shparlinski,} --> 215
+{Ilsun You,} --> 253
+{Ilya V. Kolmanovsky,} --> 207
+{In So Kweon,} --> 206
+{Inkyu Lee,} --> 234
+{Ioannis K. Argyros,} --> 219
+{Ioannis Krikidis,} --> 218
+{Ioannis Pitas,} --> 252
+{Irith Pomeranz,} --> 313
+{Iryna Gurevych,} --> 213
+{Ivan Stojmenovic,} --> 201
+{Ivan V. Oseledets,} --> 202
+{Ivor W. Tsang,} --> 218
+{Jaafar M. H. Elmirghani,} --> 209
+{Jack J. Dongarra,} --> 364
+{Jaime Lloret 0001,} --> 366
+{James Lam,} --> 353
+{Jan A. Bergstra,} --> 279
+{Jan Kautz,} --> 213
+{Jan Peters 0001,} --> 306
+{Jaroslav Nesetril,} --> 232
+{Jason H. Moore,} --> 202
+{Javier Del Ser,} --> 224
+{Jayme Luiz Szwarcfiter,} --> 206
+{Jeffrey G. Andrews,} --> 368
+{Jeffrey M. Voas,} --> 231
+{Jeffrey O. Shallit,} --> 294
+{Jeffrey Xu Yu,} --> 244
+{Jeng-Shyang Pan 0001,} --> 319
+{Jerry Chun-Wei Lin,} --> 353
+{Ji-Rong Wen,} --> 262
+{Jia Li,} --> 354
+{Jia Liu,} --> 370
+{Jia Wang,} --> 222
+{Jian Chen,} --> 296
+{Jian Li,} --> 479
+{Jian Li 0001,} --> 226
+{Jian Liu,} --> 415
+{Jian Pei,} --> 260
+{Jian Song 0004,} --> 219
+{Jian Wang,} --> 583
+{Jian Weng 0001,} --> 262
+{Jian Wu,} --> 206
+{Jian Xu,} --> 244
+{Jian Yang,} --> 331
+{Jian Yang 0003,} --> 462
+{Jian Yu,} --> 252
+{Jian Zhang,} --> 532
+{Jiandong Li 0001,} --> 309
+{Jianfei Cai 0001,} --> 247
+{Jianfeng Gao,} --> 299
+{Jianfeng Ma 0001,} --> 447
+{Jianfeng Wang,} --> 217
+{Jiangchuan Liu,} --> 264
+{Jiangzhou Wang,} --> 340
+{Jianhua Ma,} --> 209
+{Jiankun Hu,} --> 204
+{Jianming Zhan 0001,} --> 201
+{Jiannong Cao 0001,} --> 431
+{Jianping Wu,} --> 240
+{Jianquan Lu,} --> 219
+{Jianwei Huang 0001,} --> 235
+{Jianxin Wang 0001,} --> 446
+{Jianyu Yang,} --> 273
+{Jianzhong Li 0001,} --> 253
+{Jiashi Feng,} --> 340
+{Jiawei Han 0001,} --> 383
+{Jiayi Ma 0001,} --> 252
+{Jie Chen,} --> 343
+{Jie Chen 0003,} --> 206
+{Jie Li,} --> 564
+{Jie Liu,} --> 492
+{Jie Lu 0001,} --> 263
+{Jie Tang 0001,} --> 240
+{Jie Wang,} --> 342
+{Jie Wu,} --> 209
+{Jie Wu 0001,} --> 497
+{Jie Xu 0002,} --> 217
+{Jie Yang,} --> 403
+{Jie Yang 0002,} --> 372
+{Jie Zhang,} --> 583
+{Jie Zhou,} --> 243
+{Jie Zhou 0001,} --> 290
+{Jiebo Luo,} --> 464
+{Jieping Ye,} --> 233
+{Jiguo Yu,} --> 200
+{Jiming Chen 0001,} --> 250
+{Jimmy Lin,} --> 215
+{Jin Li,} --> 293
+{Jin Wang,} --> 411
+{Jin Xu,} --> 205
+{Jin Zhang,} --> 320
+{Jin-Kao Hao,} --> 227
+{Jinde Cao,} --> 1021
+{Jing Chen,} --> 417
+{Jing Li,} --> 706
+{Jing Liu,} --> 481
+{Jing Qin 0001,} --> 226
+{Jing Wang,} --> 802
+{Jing Xiao 0006,} --> 202
+{Jing Xu,} --> 237
+{Jing Yang,} --> 393
+{Jing Zhang,} --> 699
+{Jing Zhao,} --> 343
+{Jing Zhou,} --> 232
+{Jingdong Wang 0001,} --> 223
+{Jinho Choi 0001,} --> 351
+{Jinhong Yuan,} --> 391
+{Jinhui Tang 0001,} --> 232
+{Jinjun Chen,} --> 200
+{Jitendra Malik,} --> 214
+{Jiwen Lu,} --> 288
+{Jiwu Huang,} --> 211
+{Jocelyn Chanussot,} --> 375
+{Joel J. P. C. Rodrigues,} --> 611
+{Johan A. K. Suykens,} --> 267
+{Johan Schoukens,} --> 202
+{John C. S. Lui,} --> 295
+{John Lygeros,} --> 246
+{John M. Cioffi,} --> 210
+{Jon Crowcroft,} --> 268
+{Jon M. Kleinberg,} --> 201
+{Jonathan Li 0001,} --> 267
+{Jonathan P. How,} --> 223
+{Jong Chul Ye,} --> 233
+{Jong Hyuk Park,} --> 389
+{Jong-Seon No,} --> 205
+{Jorge Cort├⌐s 0001,} --> 201
+{Josef Kittler,} --> 355
+{Josep M. Guerrero,} --> 323
+{Joseph O'Rourke,} --> 217
+{Joseph Y. Halpern,} --> 359
+{Joshua B. Tenenbaum,} --> 266
+{Jos├⌐ C. Pr├¡ncipe,} --> 283
+{Jos├⌐ M. F. Moura,} --> 244
+{Ju H. Park 0001,} --> 581
+{Juan Li,} --> 265
+{Juan Zhang,} --> 216
+{Julian Cheng,} --> 260
+{Jun Chen,} --> 393
+{Jun Hu,} --> 234
+{Jun Li,} --> 502
+{Jun Li 0004,} --> 282
+{Jun Liu,} --> 535
+{Jun Wang,} --> 761
+{Jun Wang 0002,} --> 266
+{Jun Wang 0012,} --> 203
+{Jun Wu,} --> 239
+{Jun Yang,} --> 352
+{Jun Zhang,} --> 655
+{Jun Zhang 0003,} --> 242
+{Jun Zhang 0004,} --> 210
+{Jun Zhu,} --> 205
+{Jun Zhu 0001,} --> 274
+{Junbin Gao,} --> 257
+{Junchi Yan,} --> 200
+{Junfei Qiao 0001,} --> 252
+{Jungong Han,} --> 237
+{Junichi Yamagishi,} --> 205
+{Junsong Yuan,} --> 202
+{Junwei Han,} --> 320
+{Junyu Dong,} --> 255
+{Jure Leskovec,} --> 240
+{J├ínos Pach,} --> 230
+{J├│n Atli Benediktsson,} --> 222
+{J├╢rg Henkel,} --> 237
+{J├╝rgen Bajorath,} --> 207
+{J├╝rgen Kurths,} --> 214
+{J├╝rgen Schmidhuber,} --> 210
+{K. J. Ray Liu,} --> 365
+{Kai Chen,} --> 245
+{Kai Li,} --> 327
+{Kai Liu,} --> 244
+{Kai Wang,} --> 450
+{Kai Zhang,} --> 381
+{Kai-Kit Wong,} --> 455
+{Kaibin Huang,} --> 259
+{Kaibo Shi,} --> 216
+{Kalyanmoy Deb,} --> 211
+{Kang G. Shin,} --> 366
+{Kannan Ramchandran,} --> 234
+{Kaoru Hirota,} --> 277
+{Kaoru Ota,} --> 209
+{Karl Henrik Johansson,} --> 503
+{Karl J. Friston,} --> 360
+{Kaushik Roy 0001,} --> 403
+{Kay Chen Tan,} --> 334
+{Kazuyuki Aihara,} --> 235
+{Ke Li,} --> 316
+{Ke Wang,} --> 354
+{Ke Zhang,} --> 224
+{Ken-ichi Kawarabayashi,} --> 218
+{Kenli Li 0001,} --> 415
+{Keqin Li 0001,} --> 566
+{Keshab K. Parhi,} --> 220
+{Kevin W. Bowyer,} --> 208
+{Khaled Ben Letaief,} --> 421
+{Khan Muhammad 0001,} --> 208
+{Kim-Kwang Raymond Choo,} --> 843
+{Kimon P. Valavanis,} --> 286
+{Kishor S. Trivedi,} --> 223
+{Klaus-Robert M├╝ller,} --> 304
+{Kok Lay Teo,} --> 278
+{Konstantinos N. Plataniotis,} --> 295
+{Krishnendu Chakrabarty,} --> 386
+{Krishnendu Chatterjee,} --> 265
+{Kristian Kersting,} --> 203
+{Kuan-Ching Li,} --> 217
+{Kui Ren 0001,} --> 282
+{Kun Li,} --> 246
+{Kun Wang,} --> 325
+{Kun Yang 0001,} --> 262
+{Kurt Mehlhorn,} --> 217
+{Kwan-Liu Ma,} --> 233
+{Kyung Sup Kwak,} --> 261
+{Kyunghyun Cho,} --> 243
+{Lajos Hanzo,} --> 1310
+{Lane A. Hemaspaandra,} --> 268
+{Lang Tong,} --> 228
+{Larry S. Davis,} --> 261
+{Laurence B. Milstein,} --> 238
+{Laurence T. Yang,} --> 480
+{Lawrence Carin,} --> 297
+{Leah Epstein,} --> 212
+{Leandros Tassiulas,} --> 235
+{Lei Chen,} --> 405
+{Lei Chen 0002,} --> 329
+{Lei Hu,} --> 269
+{Lei Li,} --> 423
+{Lei Liu,} --> 418
+{Lei Shi,} --> 203
+{Lei Shu 0001,} --> 289
+{Lei Wang,} --> 895
+{Lei Yang,} --> 305
+{Lei Zhang,} --> 658
+{Lei Zhang 0006,} --> 361
+{Lei Zhao,} --> 265
+{Lei Zhou,} --> 234
+{Lei Zhu,} --> 200
+{Leon O. Chua,} --> 206
+{Leonard Barolli,} --> 296
+{Leonidas J. Guibas,} --> 408
+{Li Chen,} --> 443
+{Li Li,} --> 617
+{Li Liu,} --> 377
+{Li Wang,} --> 576
+{Li Xu,} --> 207
+{Li Yang,} --> 406
+{Li Zhang,} --> 623
+{Li Zhou,} --> 211
+{Liang Chen,} --> 389
+{Liang Gao 0001,} --> 296
+{Liang Li,} --> 282
+{Liang Lin,} --> 384
+{Liang Wang,} --> 243
+{Liang Wang 0001,} --> 264
+{Liang Zhang,} --> 343
+{Liang Zhao,} --> 249
+{Liangpei Zhang 0001,} --> 509
+{Licheng Jiao,} --> 954
+{Lie-Liang Yang,} --> 212
+{Liehuang Zhu,} --> 259
+{Ligang Liu,} --> 224
+{Ligang Wu,} --> 207
+{Lihua Xie,} --> 502
+{Lin Chen,} --> 314
+{Lin Li,} --> 383
+{Lin Liu,} --> 209
+{Lin Wang,} --> 418
+{Lin Yang,} --> 341
+{Lin Zhang,} --> 400
+{Lina Yao 0001,} --> 230
+{Ling Li,} --> 238
+{Ling Liu 0001,} --> 259
+{Ling Shao 0001,} --> 579
+{Ling Shi,} --> 201
+{Ling Wang 0001,} --> 219
+{Ling Zhang,} --> 231
+{Linglong Dai,} --> 255
+{Lingyang Song,} --> 351
+{Lionel C. Briand,} --> 229
+{Lior Wolf,} --> 214
+{Liqiang Nie,} --> 237
+{Liqun Qi 0001,} --> 231
+{Liu Yang,} --> 254
+{Liudong Xing,} --> 224
+{Lizhe Wang 0001,} --> 284
+{Loet Leydesdorff,} --> 479
+{Long Chen,} --> 213
+{Longbing Cao,} --> 220
+{Lorenzo Bruzzone,} --> 343
+{Louis Kruh,} --> 209
+{Lu Liu,} --> 265
+{Lu Wang,} --> 377
+{Lu Zhang,} --> 277
+{Luc Van Gool,} --> 624
+{Luca Benini,} --> 601
+{Lutz Bornmann,} --> 429
+{Lutz Volkmann,} --> 270
+{Luxi Yang,} --> 252
+{M. N. S. Swamy,} --> 202
+{M. Shamim Hossain,} --> 297
+{Maarten de Rijke,} --> 315
+{Mamoun Alazab,} --> 219
+{Manoj Kumar,} --> 223
+{Maode Ma,} --> 248
+{Maoguo Gong,} --> 350
+{Maosong Sun 0001,} --> 241
+{Marc Moonen,} --> 287
+{Marc Pollefeys,} --> 224
+{Marco Conti,} --> 254
+{Marco Di Renzo,} --> 455
+{Marco Pavone 0001,} --> 261
+{Marcus Hutter,} --> 216
+{Marek Karpinski,} --> 223
+{Mario Gerla,} --> 266
+{Mario Piattini,} --> 220
+{Markku J. Juntti,} --> 219
+{Markus H. Gross,} --> 226
+{Martin J. Wainwright,} --> 213
+{Martin Vetterli,} --> 209
+{Masashi Sugiyama,} --> 392
+{Masayoshi Tomizuka,} --> 288
+{Masayuki Murata 0001,} --> 223
+{Massoud Pedram,} --> 298
+{Matti Latva-aho,} --> 295
+{Mauro Conti,} --> 377
+{Max Q.-H. Meng,} --> 248
+{Max Welling,} --> 207
+{Mehdi Bennis,} --> 457
+{Mehdi Dehghan 0002,} --> 331
+{Meikang Qiu,} --> 229
+{Meixia Tao,} --> 255
+{Meng Li,} --> 245
+{Meng Wang,} --> 343
+{Meng Wang 0001,} --> 445
+{Meng Zhang,} --> 303
+{MengChu Zhou,} --> 554
+{Mengchu Zhou,} --> 210
+{Mengdao Xing,} --> 321
+{Mengjie Zhang 0001,} --> 278
+{Mianxiong Dong,} --> 272
+{Miao Zhang,} --> 245
+{Miaowen Wen,} --> 235
+{Micha Sharir,} --> 374
+{Michael A. Henning,} --> 411
+{Michael Elad,} --> 210
+{Michael I. Jordan,} --> 439
+{Michael J. Wooldridge,} --> 203
+{Michael K. Ng 0001,} --> 396
+{Michael Krivelevich,} --> 211
+{Michael R. Lyu,} --> 288
+{Michael T. Goodrich,} --> 209
+{Michael Unser,} --> 319
+{Michael W. Mahoney,} --> 247
+{Michal Pilipczuk,} --> 216
+{Michel Gendreau,} --> 260
+{Michel Raynal,} --> 229
+{Michele Zorzi,} --> 490
+{Mihaela van der Schaar,} --> 498
+{Mikael Skoglund,} --> 343
+{Mike Thelwall,} --> 429
+{Mikko Valkama,} --> 232
+{Min Chen 0003,} --> 318
+{Min Li,} --> 440
+{Min Liu,} --> 212
+{Min Tan 0001,} --> 207
+{Min Wang,} --> 257
+{Min Wu 0002,} --> 377
+{Min Zhang,} --> 499
+{Ming Chen,} --> 205
+{Ming Ding 0001,} --> 236
+{Ming Li,} --> 555
+{Ming Liu,} --> 277
+{Ming Liu 0001,} --> 227
+{Ming Xiao 0001,} --> 241
+{Ming Zhang,} --> 242
+{Ming-Hsuan Yang 0001,} --> 398
+{Ming-Ming Cheng,} --> 221
+{Mingliang Xu,} --> 234
+{Minyi Guo,} --> 245
+{Miroslav Krstic,} --> 384
+{Mita Nasipuri,} --> 232
+{Moe Z. Win,} --> 257
+{Moeness G. Amin,} --> 227
+{Mohamed Cheriet,} --> 226
+{Mohamed-Slim Alouini,} --> 1317
+{Mohammad Mehedi Hassan,} --> 309
+{Mohammad Reza Aref,} --> 239
+{Mohammad S. Obaidat,} --> 456
+{Mohammed Atiquzzaman,} --> 253
+{Mohammed Bennamoun,} --> 282
+{Mohan S. Kankanhalli,} --> 259
+{Mohit Bansal,} --> 211
+{Mohsen Guizani,} --> 1014
+{Moncef Gabbouj,} --> 351
+{Moshe Y. Vardi,} --> 325
+{Mubarak Shah,} --> 284
+{Mugen Peng,} --> 266
+{Muhammad Akram 0001,} --> 235
+{Muhammad Ali Imran 0001,} --> 340
+{Muhammad Imran 0001,} --> 237
+{Muhammad Khurram Khan,} --> 348
+{Muhammad Shafique 0001,} --> 223
+{Muriel M├⌐dard,} --> 372
+{Mustafa Cenk Gursoy,} --> 212
+{Mykel J. Kochenderfer,} --> 230
+{M├⌐rouane Debbah,} --> 636
+{Na Li,} --> 317
+{Nadeem Javaid,} --> 300
+{Nadia Magnenat-Thalmann,} --> 399
+{Naixue Xiong,} --> 357
+{Nan Li,} --> 262
+{Nan Wang,} --> 278
+{Nan Zhang,} --> 247
+{Nan Zhao 0001,} --> 236
+{Nanning Zheng 0001,} --> 442
+{Naofal Al-Dhahir,} --> 367
+{Naren Ramakrishnan,} --> 204
+{Nassir Navab,} --> 628
+{Neal N. Xiong,} --> 207
+{Neeraj Kumar 0001,} --> 693
+{Nei Kato,} --> 295
+{Nenghai Yu,} --> 305
+{Neri Merhav,} --> 327
+{Ness B. Shroff,} --> 295
+{Nicholas R. Jennings,} --> 240
+{Nicu Sebe,} --> 357
+{Nikil D. Dutt,} --> 219
+{Nikola K. Kasabov,} --> 203
+{Niloy J. Mitra,} --> 221
+{Ning Li,} --> 299
+{Ning Wang,} --> 418
+{Ning Zhang,} --> 349
+{Ning Zhang 0007,} --> 306
+{Niraj K. Jha,} --> 263
+{Nirwan Ansari,} --> 375
+{Noah A. Smith,} --> 202
+{Noga Alon,} --> 512
+{Norman C. Beaulieu,} --> 360
+{Octavia A. Dobre,} --> 410
+{Oded Goldreich 0001,} --> 292
+{Omer F. Rana,} --> 236
+{Onur Mutlu,} --> 334
+{Oscar Castillo 0001,} --> 265
+{Oscar H. Ibarra,} --> 248
+{Osvaldo Simeone,} --> 458
+{Palash Sarkar 0001,} --> 209
+{Pan Hui 0001,} --> 276
+{Pan Zhou,} --> 290
+{Pankaj K. Agarwal,} --> 204
+{Panos M. Pardalos,} --> 502
+{Pascal Frossard,} --> 334
+{Pascal Fua,} --> 255
+{Pascal Van Hentenryck,} --> 222
+{Patrick Sol├⌐,} --> 294
+{Paul D. Seymour,} --> 240
+{Paul Erd├╢s,} --> 213
+{Paul G. Spirakis,} --> 265
+{Paul M. Thompson,} --> 239
+{Pei Wang,} --> 207
+{Pei Xiao,} --> 244
+{Peide Liu,} --> 313
+{Peng Chen,} --> 247
+{Peng Jiang,} --> 211
+{Peng Li,} --> 447
+{Peng Liu,} --> 308
+{Peng Shi 0001,} --> 768
+{Peng Wang,} --> 545
+{Peng Wu,} --> 204
+{Peng Xu,} --> 301
+{Peng Yang,} --> 201
+{Peng Zhang,} --> 549
+{Peng Zhao,} --> 204
+{Pengfei Li,} --> 206
+{Petar Popovski,} --> 577
+{Peter Benner,} --> 246
+{Peter F. Stadler,} --> 289
+{Peter Frankl,} --> 237
+{Peter G. Neumann,} --> 316
+{Peter J. Denning,} --> 220
+{Peter J. Stuckey,} --> 201
+{Peter Richt├írik,} --> 219
+{Peter Stone,} --> 253
+{Peter Willett 0002,} --> 224
+{Peter Wonka,} --> 213
+{Petr A. Golovach,} --> 224
+{Petre Stoica,} --> 332
+{Pheng-Ann Heng,} --> 391
+{Philip H. S. Torr,} --> 341
+{Philip S. Yu,} --> 958
+{Pierre Hansen,} --> 209
+{Piet Demeester,} --> 234
+{Pieter Abbeel,} --> 336
+{Pietro Li├▓,} --> 263
+{Pin-Yu Chen,} --> 263
+{Ping Liu,} --> 200
+{Ping Wang,} --> 468
+{Ping Wang 0001,} --> 245
+{Ping Zhang,} --> 230
+{Ping Zhang 0003,} --> 294
+{Pingyi Fan,} --> 278
+{Pingzhi Fan,} --> 331
+{Pramod K. Varshney,} --> 387
+{Prosenjit Bose,} --> 284
+{Q. M. Jonathan Wu,} --> 275
+{Qi Chen,} --> 300
+{Qi Li,} --> 364
+{Qi Liu,} --> 237
+{Qi Tian 0001,} --> 598
+{Qi Wang,} --> 489
+{Qi Wang 0009,} --> 227
+{Qi Zhang,} --> 541
+{Qi Zhao,} --> 216
+{Qian Du 0001,} --> 380
+{Qian Li,} --> 287
+{Qian Liu,} --> 292
+{Qian Wang,} --> 571
+{Qian Zhang,} --> 340
+{Qian Zhang 0001,} --> 270
+{Qiang Fu,} --> 200
+{Qiang Li,} --> 432
+{Qiang Liu,} --> 308
+{Qiang Ni,} --> 211
+{Qiang Wang,} --> 264
+{Qiang Yang 0001,} --> 312
+{Qiang Zhang,} --> 413
+{Qihui Wu,} --> 272
+{Qing Li,} --> 202
+{Qing Li 0001,} --> 307
+{Qing Liu,} --> 250
+{Qing Wang,} --> 213
+{Qing Zhang,} --> 234
+{Qing Zhu,} --> 217
+{Qing-Long Han,} --> 364
+{Qinghua Hu,} --> 257
+{Qinghua Zheng,} --> 238
+{Qingming Huang,} --> 323
+{Qingqing Wu,} --> 319
+{Qingquan Li,} --> 268
+{Qionghai Dai,} --> 253
+{Quan Liu,} --> 257
+{Quan Z. Sheng,} --> 266
+{Quanyan Zhu,} --> 262
+{Radko Mesiar,} --> 453
+{Radu Timofte,} --> 226
+{Rafail Ostrovsky,} --> 245
+{Rahim Tafazolli,} --> 293
+{Rajiv Ranjan 0001,} --> 276
+{Rajkumar Buyya,} --> 651
+{Ram Sarkar,} --> 236
+{Rama Chellappa,} --> 413
+{Ramesh C. Jain,} --> 231
+{Ramesh Karri,} --> 204
+{Ramjee Prasad,} --> 287
+{Ran He,} --> 204
+{Ran Tao 0003,} --> 213
+{Raouf Boutaba,} --> 237
+{Ravi P. Agarwal,} --> 248
+{Renquan Lu,} --> 218
+{Reza Tavakkoli-Moghaddam,} --> 239
+{Richang Hong,} --> 216
+{Richard G. Baraniuk,} --> 271
+{Rik Farrow,} --> 209
+{Rita Cucchiara,} --> 201
+{Robert H. Deng,} --> 319
+{Robert J. Kauffman,} --> 201
+{Robert L. Glass,} --> 294
+{Robert Schober,} --> 782
+{Robert W. Heath Jr.,} --> 589
+{Rodrigo C. de Lamare,} --> 427
+{Roger Wattenhofer,} --> 219
+{Roland Siegwart,} --> 384
+{Rolf Niedermeier,} --> 277
+{Romano Fantacci,} --> 203
+{Romeo Ortega,} --> 278
+{Ronald R. Yager,} --> 541
+{Ronald Rousseau 0001,} --> 258
+{Rong Zhang,} --> 203
+{Rongrong Ji,} --> 354
+{Rongxing Lu,} --> 376
+{Rose Qingyang Hu,} --> 217
+{Rui Li,} --> 293
+{Rui Paulo Martins,} --> 258
+{Rui Wang,} --> 621
+{Rui Xu,} --> 232
+{Rui Yang,} --> 228
+{Rui Zhang,} --> 528
+{Rui Zhang 0006,} --> 630
+{Ruslan Salakhutdinov,} --> 224
+{Saeid Nahavandi,} --> 296
+{Saharon Shelah,} --> 427
+{Sajal K. Das 0001,} --> 424
+{Saket Saurabh 0001,} --> 340
+{Salil S. Kanhere,} --> 211
+{Sam Kwong,} --> 443
+{Samuel Kaski,} --> 210
+{San Ling,} --> 228
+{Sandi Klavzar,} --> 271
+{Sankar K. Pal,} --> 226
+{Saraju P. Mohanty,} --> 219
+{Saralees Nadarajah,} --> 259
+{Saru Kumari,} --> 249
+{Schahram Dustdar,} --> 346
+{Sennur Ulukus,} --> 343
+{Seong-Whan Lee,} --> 249
+{Sergey Levine,} --> 440
+{Sergio Escalera,} --> 212
+{Sergio Verd├║,} --> 209
+{Seungmin Rho,} --> 221
+{Seyedali Mirjalili,} --> 289
+{Shahid Mumtaz,} --> 273
+{Shaocheng Tong,} --> 348
+{Shaojie Tang,} --> 230
+{Shaoqian Li,} --> 286
+{Sheng Chen 0001,} --> 358
+{Shengli Xie,} --> 270
+{Shengyong Chen,} --> 216
+{Shengyuan Xu,} --> 369
+{Sherali Zeadally,} --> 380
+{Shi Jin 0002,} --> 612
+{Shi-Min Hu 0001,} --> 266
+{Shie Mannor,} --> 278
+{Shifei Ding,} --> 206
+{Shiguang Shan,} --> 210
+{Shih-Fu Chang,} --> 232
+{Shiji Song,} --> 203
+{Shinji Watanabe 0001,} --> 313
+{Shiping Wen 0001,} --> 220
+{Shiqi Wang 0001,} --> 229
+{Shirui Pan,} --> 218
+{Shitong Wang 0001,} --> 230
+{Shiwen Mao,} --> 280
+{Shlomi Dolev,} --> 208
+{Shlomo Shamai,} --> 448
+{Shouming Zhong,} --> 312
+{Shouyang Wang,} --> 256
+{Shuai Li,} --> 228
+{Shuai Li 0002,} --> 257
+{Shuai Wang,} --> 335
+{Shuai Zhang,} --> 213
+{Shuang Li,} --> 231
+{Shuguang Cui,} --> 356
+{Shui Yu 0001,} --> 381
+{Shuicheng Yan,} --> 506
+{Shuo Wang,} --> 273
+{Shuo Zhang,} --> 207
+{Shutao Li,} --> 214
+{Shuyuan Yang,} --> 241
+{Shuzhi Sam Ge,} --> 395
+{Shyi-Ming Chen,} --> 264
+{Sihem Mesnager,} --> 221
+{Simon X. Yang,} --> 251
+{Song Guo 0001,} --> 444
+{Song-Chun Zhu,} --> 225
+{Songcan Chen,} --> 246
+{Sonia A├»ssa,} --> 213
+{Soo-Chang Pei,} --> 235
+{Soung Chang Liew,} --> 215
+{Sridha Sridharan,} --> 216
+{Stan Z. Li,} --> 267
+{Stanley J. Osher,} --> 201
+{Stefan Schmid 0001,} --> 268
+{Stefan Wermter,} --> 245
+{Stefano Ermon,} --> 221
+{Stefano Soatto,} --> 212
+{Stefanos Zafeiriou,} --> 210
+{Stephan Olariu,} --> 237
+{Steven C. H. Hoi,} --> 223
+{Steven X. Ding,} --> 206
+{Sudhakar M. Reddy,} --> 230
+{Sudip Misra,} --> 334
+{Suhas N. Diggavi,} --> 201
+{Sumei Sun,} --> 207
+{Sungyoung Lee,} --> 210
+{Surya Nepal,} --> 244
+{Sushil Jajodia,} --> 220
+{Sven Behnke,} --> 223
+{Svetha Venkatesh,} --> 293
+{Syed Ali Jafar,} --> 242
+{Symeon Chatzinotas,} --> 457
+{S├índor P. Fekete,} --> 217
+{S├⌐bastien Ourselin,} --> 306
+{T. Aaron Gulliver,} --> 374
+{T. C. E. Cheng,} --> 221
+{T. C. Edwin Cheng,} --> 254
+{T. D. Wilson 0001,} --> 375
+{Taghi M. Khoshgoftaar,} --> 204
+{Tamer Basar,} --> 394
+{Tao Chen,} --> 232
+{Tao Jiang,} --> 247
+{Tao Jiang 0002,} --> 387
+{Tao Li,} --> 505
+{Tao Liu,} --> 374
+{Tao Mei 0001,} --> 316
+{Tao Qin,} --> 256
+{Tao Wang,} --> 637
+{Tao Wu,} --> 202
+{Tao Xiang,} --> 314
+{Tao Xu,} --> 217
+{Tao Yang,} --> 294
+{Tao Zhang,} --> 483
+{Tao Zhou,} --> 241
+{Tareq Y. Al-Naffouri,} --> 265
+{Tarik Taleb,} --> 255
+{Tasawar Hayat,} --> 280
+{Tat-Seng Chua,} --> 370
+{Tatsuya Akutsu,} --> 207
+{Theodoros A. Tsiftsis,} --> 219
+{Tho Le-Ngoc,} --> 271
+{Thomas S. Huang,} --> 386
+{Tian Wang 0001,} --> 257
+{Tianrui Li 0001,} --> 393
+{Tianyou Chai,} --> 278
+{Tie-Yan Liu,} --> 290
+{Tieniu Tan,} --> 233
+{Tim Menzies,} --> 259
+{Ting Liu 0001,} --> 226
+{Ting Wang,} --> 326
+{Ting Zhang,} --> 254
+{Ting-Zhu Huang,} --> 316
+{Tingwen Huang,} --> 657
+{Toby Walsh,} --> 230
+{Tommy W. S. Chow,} --> 204
+{Tong Heng Lee,} --> 290
+{Tong Zhang 0001,} --> 251
+{Tongliang Liu,} --> 233
+{Tongwen Chen,} --> 216
+{Tony Q. S. Quek,} --> 527
+{Tor Helleseth,} --> 258
+{Torsten Hoefler,} --> 209
+{Toshio Fukuda,} --> 275
+{Trevor Darrell,} --> 288
+{Trung Quang Duong,} --> 231
+{Tsachy Weissman,} --> 209
+{Tzung-Pei Hong,} --> 272
+{U. Rajendra Acharya,} --> 507
+{Ufuk Topcu,} --> 257
+{Urbashi Mitra,} --> 201
+{Uwe Aickelin,} --> 312
+{Vahid Tarokh,} --> 227
+{Vaneet Aggarwal,} --> 309
+{Venkatesan Guruswami,} --> 331
+{Victor C. M. Leung,} --> 888
+{Victor Chang 0001,} --> 214
+{Victor Hugo C. de Albuquerque,} --> 253
+{Victor O. K. Li,} --> 242
+{Vijay K. Bhargava,} --> 233
+{Vijay Kumar 0001,} --> 304
+{Vikram Krishnamurthy,} --> 259
+{Viktor K. Prasanna,} --> 238
+{Vince D. Calhoun,} --> 335
+{Vincent K. N. Lau,} --> 407
+{Vincent Y. F. Tan,} --> 261
+{Vinton G. Cerf,} --> 222
+{Vishal M. Patel 0001,} --> 257
+{Vishwani D. Agrawal,} --> 242
+{Vladik Kreinovich,} --> 435
+{Vladimir Zwass,} --> 213
+{Vojtech R├╢dl,} --> 279
+{Walid Saad,} --> 565
+{Wangmeng Zuo,} --> 361
+{Wanlei Zhou 0001,} --> 266
+{Wanli Ouyang,} --> 260
+{Ward Whitt,} --> 202
+{Wei Chen,} --> 435
+{Wei Chen 0001,} --> 233
+{Wei Chen 0002,} --> 217
+{Wei Gao,} --> 298
+{Wei Guo,} --> 374
+{Wei He,} --> 237
+{Wei Hu,} --> 244
+{Wei Huang,} --> 444
+{Wei Jiang,} --> 398
+{Wei Li,} --> 777
+{Wei Li 0032,} --> 212
+{Wei Liu,} --> 779
+{Wei Liu 0005,} --> 245
+{Wei Lu,} --> 242
+{Wei Ni 0001,} --> 309
+{Wei Sun,} --> 264
+{Wei Wang,} --> 962
+{Wei Wei,} --> 318
+{Wei Wu,} --> 396
+{Wei Xiang 0001,} --> 274
+{Wei Xie,} --> 218
+{Wei Xing Zheng 0001,} --> 375
+{Wei Xu,} --> 382
+{Wei Xu 0001,} --> 284
+{Wei Yang,} --> 307
+{Wei Yu 0001,} --> 230
+{Wei Zhang,} --> 981
+{Wei Zhao,} --> 371
+{Wei Zheng,} --> 241
+{Wei Zhou,} --> 402
+{Wei-Ping Zhu 0001,} --> 236
+{Weidong Wang,} --> 218
+{Weihua Gui 0001,} --> 276
+{Weihua Zhuang,} --> 308
+{Weijia Jia 0001,} --> 231
+{Weili Wu 0001,} --> 280
+{Weinan Zhang 0001,} --> 215
+{Weiping Ding 0001,} --> 284
+{Weisi Lin,} --> 351
+{Wen Chen 0001,} --> 261
+{Wen Gao 0001,} --> 518
+{Wen Wang,} --> 219
+{Wenbo Wang 0007,} --> 214
+{Wenjun Zhang 0001,} --> 227
+{Wenping Wang,} --> 324
+{Wenwu Zhu 0001,} --> 206
+{Wenyu Liu 0001,} --> 205
+{Wil M. P. van der Aalst,} --> 397
+{William I. Gasarch,} --> 203
+{William Yang Wang,} --> 204
+{Willy Susilo,} --> 453
+{Witold Pedrycz,} --> 1248
+{Wolfgang Gl├ñnzel,} --> 208
+{Wolfram Burgard,} --> 266
+{Xi Chen,} --> 669
+{Xi Wang,} --> 227
+{Xi Zhang,} --> 276
+{Xian Sun,} --> 251
+{Xianbin Wang 0001,} --> 327
+{Xiang Bai,} --> 258
+{Xiang Chen,} --> 236
+{Xiang Li,} --> 578
+{Xiang Wang,} --> 326
+{Xiang Zhang,} --> 308
+{Xiang-Gen Xia 0001,} --> 481
+{Xiang-Yang Li 0001,} --> 265
+{Xiangnan He 0001,} --> 218
+{Xiangpeng Xie,} --> 240
+{Xiao Chen,} --> 234
+{Xiao Li,} --> 283
+{Xiao Liu,} --> 242
+{Xiao Wang,} --> 339
+{Xiao Xiang Zhu,} --> 250
+{Xiao Zhang,} --> 251
+{Xiaochun Cao,} --> 245
+{Xiaodan Liang,} --> 275
+{Xiaodong Wang 0001,} --> 562
+{Xiaofang Zhou 0001,} --> 265
+{Xiaofeng Liao 0001,} --> 265
+{Xiaofeng Wang,} --> 235
+{Xiaogang Wang 0001,} --> 239
+{Xiaohong Guan,} --> 220
+{Xiaohu Ge,} --> 214
+{Xiaohu Tang,} --> 272
+{Xiaohu You 0001,} --> 518
+{Xiaohua Jia,} --> 303
+{Xiaojiang Du,} --> 446
+{Xiaojun Chang,} --> 201
+{Xiaojun Yuan 0002,} --> 202
+{Xiaokang Yang,} --> 308
+{Xiaoyu Song,} --> 204
+{Xilin Chen 0001,} --> 204
+{Ximeng Liu,} --> 290
+{Xin Chen,} --> 606
+{Xin Gao,} --> 215
+{Xin He,} --> 365
+{Xin Huang,} --> 227
+{Xin Jin,} --> 275
+{Xin Li,} --> 725
+{Xin Liu,} --> 545
+{Xin Wang,} --> 795
+{Xin Xu,} --> 265
+{Xin Yao 0001,} --> 459
+{Xin Zhang,} --> 533
+{Xin Zhao,} --> 264
+{Xin Zhou,} --> 260
+{Xinbing Wang,} --> 262
+{Xinbo Gao 0001,} --> 594
+{Xindong Wu 0001,} --> 397
+{Xing Xie 0001,} --> 238
+{Xinghuo Yu 0001,} --> 379
+{Xingwei Wang 0001,} --> 300
+{Xinpeng Zhang 0001,} --> 277
+{Xinping Guan,} --> 428
+{Xinwang Liu,} --> 312
+{Xinyi Huang 0001,} --> 209
+{Xinyu Zhang,} --> 220
+{Xiqi Gao 0001,} --> 286
+{Xiuzhen Cheng 0001,} --> 271
+{Xu Chen,} --> 306
+{Xu Li,} --> 200
+{Xu Wang,} --> 329
+{Xu Zhang,} --> 393
+{Xuan Li,} --> 242
+{Xuan Wang,} --> 235
+{Xuding Zhu,} --> 261
+{Xudong Zhao 0001,} --> 210
+{Xue Li,} --> 241
+{Xueliang Li 0001,} --> 258
+{Xuelong Li 0001,} --> 950
+{Xuemin Lin 0001,} --> 260
+{Xuemin Shen,} --> 676
+{Xueqi Cheng,} --> 253
+{Yan Chen,} --> 312
+{Yan Li,} --> 658
+{Yan Liu,} --> 543
+{Yan Wang,} --> 715
+{Yan Xu,} --> 274
+{Yan Yang,} --> 236
+{Yan Zhang,} --> 688
+{Yan Zhang 0002,} --> 407
+{Yan Zhao,} --> 230
+{Yan Zhou,} --> 236
+{Yanchun Zhang,} --> 201
+{Yang Chen,} --> 436
+{Yang Gao,} --> 283
+{Yang Li,} --> 688
+{Yang Liu,} --> 1172
+{Yang Liu 0003,} --> 290
+{Yang Shi 0001,} --> 212
+{Yang Tang,} --> 208
+{Yang Wang,} --> 577
+{Yang Xiang 0001,} --> 338
+{Yang Xiao 0001,} --> 288
+{Yang Xu,} --> 217
+{Yang Yang,} --> 631
+{Yang Yu,} --> 313
+{Yang Zhang,} --> 503
+{Yang Zhao,} --> 374
+{Yang Zhou,} --> 246
+{Yanning Zhang,} --> 364
+{Yanzhi Wang,} --> 220
+{Yao Li,} --> 209
+{Yao Wang,} --> 235
+{Yao Zhang,} --> 302
+{Yao Zhao 0001,} --> 425
+{Yaochu Jin,} --> 375
+{Yaonan Wang 0001,} --> 257
+{Ye Wang,} --> 201
+{Yevgeni Koucheryavy,} --> 204
+{Yew-Soon Ong,} --> 277
+{Yi Chen,} --> 274
+{Yi Huang,} --> 214
+{Yi Li,} --> 437
+{Yi Liu,} --> 505
+{Yi Mu 0001,} --> 304
+{Yi Pan 0001,} --> 344
+{Yi Sun,} --> 233
+{Yi Wang,} --> 618
+{Yi Xu,} --> 299
+{Yi Yang,} --> 393
+{Yi Yang 0001,} --> 411
+{Yi Zhang,} --> 798
+{Yi Zhao,} --> 273
+{Yi Zhou,} --> 207
+{Yi-Bing Lin,} --> 334
+{Yifan Wang,} --> 212
+{Yilong Yin,} --> 205
+{Yiming Wei 0001,} --> 201
+{Ying Chen,} --> 393
+{Ying Guo,} --> 227
+{Ying Li,} --> 537
+{Ying Liu,} --> 460
+{Ying Wang,} --> 556
+{Ying Xu,} --> 225
+{Ying Zhang,} --> 561
+{Ying Zhou,} --> 203
+{Ying-Chang Liang,} --> 396
+{Yintang Yang,} --> 241
+{Yiran Chen 0001,} --> 236
+{Yishay Mansour,} --> 249
+{Yixian Yang,} --> 240
+{Yizhou Yu,} --> 242
+{Yong Chen,} --> 350
+{Yong Deng 0001,} --> 303
+{Yong Li,} --> 356
+{Yong Li 0008,} --> 398
+{Yong Liang Guan 0001,} --> 325
+{Yong Liu,} --> 450
+{Yong Shi 0001,} --> 282
+{Yong Wang,} --> 693
+{Yong Xiang 0001,} --> 228
+{Yong Xu 0001,} --> 230
+{Yong Yang,} --> 227
+{Yong Zhang,} --> 381
+{Yongdong Zhang 0001,} --> 246
+{Yonggang Wen 0001,} --> 207
+{Yonghong Tian 0001,} --> 201
+{Yonghui Li 0001,} --> 515
+{Yongming Huang,} --> 322
+{Yongpeng Wu 0001,} --> 201
+{Yonina C. Eldar,} --> 607
+{Yoshua Bengio,} --> 604
+{Yu Chen,} --> 390
+{Yu Li,} --> 425
+{Yu Liu,} --> 534
+{Yu Qiao 0001,} --> 225
+{Yu Sun,} --> 217
+{Yu Tsao 0001,} --> 201
+{Yu Wang,} --> 604
+{Yu Yang,} --> 236
+{Yu Zhang,} --> 1030
+{Yu Zhou,} --> 271
+{Yu-Kun Lai,} --> 212
+{Yuan Gao,} --> 399
+{Yuan Li,} --> 407
+{Yuan Liu,} --> 287
+{Yuan Wang,} --> 349
+{Yuan Xie 0001,} --> 240
+{Yuan Yan Tang,} --> 344
+{Yuan Yuan 0001,} --> 278
+{Yuan Zhang,} --> 345
+{Yuanqing Xia,} --> 421
+{Yuanwei Liu,} --> 412
+{Yuanyuan Yang 0001,} --> 228
+{Yue Chen,} --> 244
+{Yue Li,} --> 243
+{Yue Liu,} --> 290
+{Yue Wang,} --> 379
+{Yue Wu,} --> 322
+{Yue Yu,} --> 241
+{Yue Zhang,} --> 429
+{Yue Zhang 0004,} --> 209
+{Yue Zhao,} --> 213
+{Yueh-Min Huang,} --> 231
+{Yueting Zhuang,} --> 240
+{Yuguang Fang,} --> 326
+{Yun Fu 0001,} --> 237
+{Yun Li,} --> 202
+{Yunfei Chen 0001,} --> 340
+{Yunhao Liu 0001,} --> 245
+{Yunsong Li,} --> 215
+{Yuval Elovici,} --> 282
+{Z. Jane Wang 0001,} --> 204
+{Zehui Xiong,} --> 221
+{Zengqiang Chen 0001,} --> 229
+{Zeshui Xu,} --> 678
+{Zhang Yi 0001,} --> 270
+{Zhangdui Zhong,} --> 298
+{Zhangming Zhu,} --> 215
+{Zhangyang Wang,} --> 326
+{Zhanshan Wang,} --> 218
+{Zhaocheng Wang 0001,} --> 209
+{Zhaoyang Zhang 0001,} --> 338
+{Zhe Chen,} --> 239
+{Zhe Li,} --> 231
+{Zhe Wang,} --> 303
+{Zhe Zhang,} --> 290
+{Zhen He,} --> 221
+{Zhen Li,} --> 321
+{Zhen Liu,} --> 255
+{Zhen Wang,} --> 387
+{Zhen Yang,} --> 271
+{Zhen Zhang,} --> 283
+{Zhenfu Cao,} --> 230
+{Zheng Bao 0001,} --> 221
+{Zheng Li,} --> 392
+{Zheng Liu,} --> 283
+{Zheng Wang,} --> 274
+{Zheng Yan 0002,} --> 202
+{Zheng Zhang,} --> 237
+{Zheng-Guang Wu,} --> 213
+{Zhi Ding 0001,} --> 277
+{Zhi Jin,} --> 206
+{Zhi Li,} --> 334
+{Zhi-Hua Zhou,} --> 304
+{Zhi-Quan Luo,} --> 257
+{Zhigang Zeng,} --> 424
+{Zhiguo Ding 0001,} --> 681
+{Zhihan Lv,} --> 346
+{Zhipeng Cai 0001,} --> 224
+{Zhisheng Niu,} --> 228
+{Zhiwen Yu 0001,} --> 280
+{Zhiwu Li 0001,} --> 311
+{Zhiyong Feng 0001,} --> 211
+{Zhiyuan Liu 0001,} --> 254
+{Zhong-Ping Jiang,} --> 232
+{Zhouchen Lin,} --> 245
+{Zhu Han 0001,} --> 1117
+{Zibin Zheng,} --> 311
+{Zidong Wang,} --> 704
+{Ziwei Liu 0002,} --> 208
+{Zongben Xu,} --> 293
+{Zongli Lin,} --> 213
+{Zsolt Tuza,} --> 306
+{Bin Guo 0001,Zhiwen Yu 0001,} --> 200
+{Bj├╢rn E. Ottersten,Symeon Chatzinotas,} --> 263
+{Branka Vucetic,Yonghui Li 0001,} --> 303
+{Ciriaco Andrea D'Angelo,Giovanni Abramo,} --> 235
+{Dusit Niyato,Ping Wang 0001,} --> 200
+{Guangquan Zhang 0001,Jie Lu 0001,} --> 213
+{Jie Zhou 0001,Jiwen Lu,} --> 200
+{Kenli Li 0001,Keqin Li 0001,} --> 210
+{Mohsen Guizani,Xiaojiang Du,} --> 261
+time cost: 29635 ms
