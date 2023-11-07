@@ -1,4 +1,5 @@
 # calculate the execution time
+import sys
 import time
 
 from get_author import get_author
@@ -34,7 +35,8 @@ def Apriori(data, min_sup, min_conf):
                 tmp.append(i)
         for i in tmp:
             freqSet[-1].remove(i)
-    print(freqSet)
+    for f in freqSet:
+        print(f)
 
 
 def generate(freqSet):
@@ -56,7 +58,7 @@ def read_data(file_name):
     data = []
     with open(file_name, 'r') as f:
         for line in f.readlines():
-            data.append(list(map(int, line.strip().split(' '))))
+            data.append(list(map(int, line.strip().split(','))))
     return data
 
 
@@ -68,16 +70,17 @@ def author():
     end = time.time()
     print(f'generating frequent itemsets takes {end - start} seconds')
 
-def test():
-    data = read_data('pumsb_star.dat')
+def test(path, min_sup):
+    data = read_data(path)
     # data = [['M', 'O', 'N', 'K', 'E', 'Y'], ['D', 'O', 'N', 'K', 'E', 'Y'], ['M', 'A', 'K', 'E'], ['M', 'U', 'C', 'K', 'Y'], ['C', 'O', 'O', 'K', 'I', 'E']]
     data.sort()
     # print(data)
     start = time.time()
-    Apriori(data, 0.6, 0.8)
+    Apriori(data, float(min_sup), 0.8)
     end = time.time()
     print(f'generating frequent itemsets takes {end - start} seconds')
     # generating frequent itemsets takes 36.05696654319763 seconds
 
 if __name__ == '__main__':
-    author()
+    args = sys.argv[1:]
+    test(args[0], args[1])
