@@ -27,7 +27,7 @@ g++ FPG.cpp -o fpg
 ./fpg <filename> <min_support_count>
 ```
 
-### test
+## test
 
 #### test01 - mushroom_1000
 * apriori
@@ -49,6 +49,8 @@ python dataset/Apriori.py pumsb_star.txt 0.6
 ```
 ./fpg dataset/pumsb_star.txt 29000
 ```
+## result
+
 |  | apriori | fp-growth |
 | -- | -- | -- |
 | mushroom_1000.txt | 4.42 s | 0.075 s |
