@@ -67,7 +67,7 @@ time cost: 28.8 sec
 
 Ensure that your input file contains multiple lines indicating different transactions, with each item separated by a space.
 
-All dataset in this lab is in dataset folder, and the result is in result folder.
+All dataset in this lab is in [dataset](https://drive.google.com/drive/folders/1aTYRYioFaDZqxmruJYa3oB3Ltc-jdsMM?usp=sharing), and the result is in result folder.
 
 dblp author dataset: [link](https://drive.google.com/file/d/1kcrMd2FV02W_7-toUJlrL-ULgg3L_4v7/view?usp=drive_link)
 
